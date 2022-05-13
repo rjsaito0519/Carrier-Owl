@@ -1,11 +1,22 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
-
+#cat:physics.acc-ph OR cat:physics.atom-ph OR cat:physics.pop-ph
+subject: 'cat:physics.* OR cat:astro-ph.*'
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
-
+        trap: 1
+        accelerator: 3
+        cosmic ray: 1
+        LHC: 1
+        baem: 1
+        Betatron: 2
+        synchrotron: 2
+        Storage Rings: 1
+        muon: 1
+        mass spectrometry: 1
+        hypernucleus : 2
+        hyperon : 2
+        hadron : 2
+        cross sections: 2
+        tandem: 1
 # 通知の閾値
 score_threshold: 0
