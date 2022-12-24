@@ -3,7 +3,6 @@
 subject: 'cat:physics.* OR cat:astro-ph.*'
 # 検索キーワード
 keywords:
-        trap: 1
         accelerator: 3
         cosmic ray: 1
         LHC: 1
@@ -16,7 +15,9 @@ keywords:
         hypernucleus : 2
         hyperon : 2
         hadron : 2
-        cross sections: 2
         tandem: 1
+        TPC: 3
+        GEM: 3
+        Glass GEM: 3
 # 通知の閾値
 score_threshold: 0
